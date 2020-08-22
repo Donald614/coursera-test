@@ -1,0 +1,221 @@
+
+	* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+h1 {
+
+	margin-top: 30px;
+	margin-bottom: 10px;
+
+	text-align: center;
+}
+
+div {
+	margin: 1%;
+	background-color: gray;
+
+
+	
+}
+
+p {
+padding: 10px;
+font-size: 15px;
+font-weight: bold;
+
+
+}
+
+section {
+	border-bottom: 1.5px solid black;
+	border-left: 1.5px solid black;
+	width: 30%;
+	height: 30px;
+	padding-top: 2px;
+	padding-right: 3px;
+	padding-left: 3px;
+	
+}
+
+
+@media(min-width: 992px){
+
+
+#color1 {
+	background-color: white;
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	left: 70%;
+	width: 30%;
+
+}
+
+
+	#p1 {
+		margin-left: 40px;
+		border: 2px solid black;
+		width: 30%;
+		height: 155px;
+		float: left;
+ }
+
+
+#color2 {
+	 background-color: #DEB887;
+	 text-align: center;
+	font-weight: bold;
+	position: relative;
+	left: 70%;
+	width: 30%;
+}
+
+
+ #p2 {
+		border: 2px solid black;
+		width: 30%;
+		height: 155px;
+		float: left;	
+}
+ 
+ #color3 {
+	background-color: #FF7F50;
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	left: 70%;
+	width: 30%;
+}
+
+#p3 {
+		border: 2px solid black;
+		width: 30%;
+		height: 155px;
+		float: left;
+		
+ }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+#color1 {
+	background-color: white;
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	left: 70%;
+	width: 30%;
+
+}
+
+
+#p1 {
+		border: 2px solid black;
+		margin-left: 35px;
+
+		width: 45%;
+		height: 110px;
+		float: left;
+
+  }
+
+#color2 {
+	 background-color: #DEB887;
+	 text-align: center;
+	font-weight: bold;
+	position: relative;
+	left: 70%;
+	width: 30%;
+
+ }
+ #p2 {
+		border: 2px solid black;
+		width: 45%;
+		height: 110px;
+		float: left;	
+}
+ 
+#color3 {
+	background-color: #FF7F50;
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	left: 85%;
+	width: 15%;
+}
+
+#p3 {
+		border: 2px solid black;
+		margin-left: 35px;
+		width: 92%;
+		height: 110px;
+		float: left;
+		
+  }	
+  
+}
+
+  @media(max-width: 767px){
+
+
+#color1 {
+	background-color: white;
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	left: 80%;
+	width: 20%;
+
+}
+
+
+#p1 {
+		border: 2px solid black;
+		margin-left: 25px;
+		width: 92%;
+		height: 100px;
+		float: left;
+ }
+
+ #color2 {
+	 background-color: #DEB887;
+	 text-align: center;
+	font-weight: bold;
+	position: relative;
+	left: 80%;
+	width: 20%;
+}
+
+
+ #p2 {
+		border: 2px solid black;
+		margin-left: 25px;
+		width: 92%;
+		height: 100px;
+		float: left;	
+ }
+
+#color3 {
+	background-color: #FF7F50;
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	left: 80%;
+	width: 20%;
+}
+
+#p3 {
+		border: 2px solid black;
+		margin-left: 25px;
+		width: 92%;
+		height: 100px;
+		float: left;
+  }
+  
+}
