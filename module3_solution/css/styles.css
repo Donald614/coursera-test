@@ -125,12 +125,12 @@ h2 {
   width: 100%;
 }
 
-.navbar-toggle {
+/**.navbar-toggle {
  display: block!important;
  position: absolute;
  right: 1%;
  margin-top: 0;
- top: 12px;
+ top: 12px;**/
  
 
 }
