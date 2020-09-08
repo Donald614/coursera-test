@@ -26,4 +26,4 @@ byeSpeaker.speak = function (name) {
 
 
 
-}) (window);
+})(window);
